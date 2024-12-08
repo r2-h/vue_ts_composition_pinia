@@ -6,6 +6,6 @@ defineProps<{ msg: string }>()
 const count = ref(0)
 </script>
 
-<template></template>
+<template>{{ count }}</template>
 
 <style scoped></style>
